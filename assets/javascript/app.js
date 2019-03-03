@@ -155,7 +155,7 @@ $(document).ready(function() {
 		}
 	}
 
-	// screen that shows final score and nice message :)
+	// this is for the final score screen
 	function resultsScreen() {
 		if (correctGuesses === questions.length) {
 			var endMessage = "Flawless Victory!";
@@ -193,7 +193,7 @@ $(document).ready(function() {
 		}
 	}
 
-	// moves question counter forward to show next question
+	//  this moves the question counter forward to show next question
 	function nextQuestion() {
 		if (questionCounter < questions.length) {
 			time = 15;
@@ -205,8 +205,6 @@ $(document).ready(function() {
 		else {
 			resultsScreen();
 		}
-	// console.log(questionCounter);
-	// console.log(questions[questionCounter].correctAnswer);
 	}
 
 	// reset score and counter parameters on restart
