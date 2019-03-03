@@ -1,0 +1,54 @@
+body { 
+	background: url(../images/videogamebackground.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: 100% 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	cursor: url(../images/controller.png), auto;
+}
+
+h1,
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	background-color: black;
+	padding: 25px;
+	text-shadow: 2px 2px blue;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: green;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: blue;
+	color: white;
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px blue;
+	-moz-box-shadow: 7px 5px 47px 0px blue;
+	box-shadow: 7px 5px 47px 0px blue;
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px blue;
+	-moz-box-shadow: -7px 6px 5px -1px blue;
+	box-shadow: -7px 6px 5px -1px blue;
+}
