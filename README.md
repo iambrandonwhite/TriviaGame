@@ -12,3 +12,5 @@ Instructions: Hit START to begin the game.
 
 # Author
 Brandon White - https://github.com/iambrandonwhite
+
+Play it here - https://iambrandonwhite.github.io/TriviaGame/
